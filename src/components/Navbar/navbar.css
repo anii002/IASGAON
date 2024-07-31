@@ -1,0 +1,28 @@
+.navbar-brand .brand-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  width: 50px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icons a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 10px; /* Add this line to create space between icons */
+}
+
+.navbar-icons a:last-child {
+  margin-right: 0; /* Remove right margin from the last icon */
+}
+
+.navbar-icons a:hover {
+  color: #007bff;
+}
