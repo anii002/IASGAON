@@ -76,14 +76,15 @@ const About = () => {
           </p>
 
           <p>
-          Our mentorship cum comprehensive NIV NIRMAN programs are crafted with a
-holistic approach, ensuring thorough coverage of the syllabus while also honing
-essential skills. Through personalized study plans, regular feedback, and
-one-on-one guidance, we cultivate an environment that nurtures growth and
-success. We are committed to equipping you not only with knowledge but also
-with critical thinking, effective communication, and time management skills
-necessary to excel in all stages of the examination. Trust us to be your partners
-in achieving your aspirations.
+            Our mentorship cum comprehensive NIV NIRMAN programs are crafted
+            with a holistic approach, ensuring thorough coverage of the syllabus
+            while also honing essential skills. Through personalized study
+            plans, regular feedback, and one-on-one guidance, we cultivate an
+            environment that nurtures growth and success. We are committed to
+            equipping you not only with knowledge but also with critical
+            thinking, effective communication, and time management skills
+            necessary to excel in all stages of the examination. Trust us to be
+            your partners in achieving your aspirations.
           </p>
 
           {/* <p>
