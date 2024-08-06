@@ -1,3 +1,48 @@
+.marquee-container {
+  width: 100%;
+  background-color:red; /* Adjust background color */
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1020; /* Ensure it sits above other content */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 18s linear infinite;
+}
+
+.marquee-box {
+  margin: 0 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.navbar {
+  margin-top: 50px; /* Adjust to ensure navbar is below marquee */
+}
+
+
+.navbar {
+  margin-top: 30px; /* Adjust to ensure navbar is below marquee */
+}
+
 .navbar {
   transition: background-color 0.5s ease;
 }

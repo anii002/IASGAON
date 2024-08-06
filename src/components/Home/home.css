@@ -1,7 +1,7 @@
 /* home.css */
 
 .home-container {
-  margin-top: 80px; /* Adjust based on your navbar height */
+  margin-top: 138px; /* Adjust based on your navbar height */
 }
 .carousel-item {
   height: 350px; /* Ensuring uniform height for carousel items */
@@ -29,8 +29,6 @@
   gap: 20px; /* Adjust the gap as needed */
 }
 
-
-
 .resources-section {
   padding: 50px 0;
   text-align: center;
@@ -43,7 +41,6 @@
 }
 .resources-box {
   flex: 1 1 calc(33.333% - 15px); /* Adjust the percentage and margin accordingly */
-
 }
 
 @media (max-width: 767px) {
@@ -98,9 +95,6 @@
   margin: 0; /* Ensure no margin */
 }
 
-
-
-
 /* our program */
 .programs-section {
   text-align: center;
@@ -119,7 +113,8 @@
 .full-screen-image {
   width: 100%;
   height: 100vh;
-  background: url('https://cdn.visionias.in/misc/bypuu00iij01718095386.jpg') no-repeat center center;
+  background: url("https://cdn.visionias.in/misc/bypuu00iij01718095386.jpg")
+    no-repeat center center;
   background-size: cover;
 }
 
@@ -149,7 +144,6 @@
 .team-member p {
   color: #010066;
 }
-
 
 /* upsc detail sec */
 .upsc-section {

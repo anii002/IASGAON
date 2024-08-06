@@ -5,3 +5,28 @@
 a{
     text-decoration: none;
 }
+
+.footer-section .footer .footer-links-column  li a{
+    color: #010066;
+}
+.footer .text-heading{
+    color: #010066;
+}
+.footer .responsive_footer h5,h6{
+    color: #010066;
+}
+.footer .responsive_footer h6{
+    color: red;
+}
+.footer .responsive_footer .nav li{
+    color: #010066;
+}
+.footer .responsive_footer .nav li span a{
+    color: #010066;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer .footer-icon-right li a{
+    color: #010066;
+}

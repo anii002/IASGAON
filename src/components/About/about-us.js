@@ -5,8 +5,8 @@ const About = () => {
       <div className="container">
         <div className="row about-head">
           <div className="col-lg-12">
-            <h1 className="mb-2 text-uppercase">About Us</h1>
-            <p className="text-primary fw-500 mb-5">
+            <h1 className="mb-1 text-uppercase">About Us</h1>
+            <p className="fw-500 mb-3">
               <i>
                 Next Generation Institute for UPSC Civil Services Examination
                 Preparation.
@@ -15,7 +15,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="row mt-4">
+        <div className="row mt-2">
           <div className="col-lg-7 row-eq-height">
             <img
               alt="about-us"
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="bg-blue-light rounded py-4 px-4 mt-5 shadow-sm">
+        <div className="rounded py-4 px-4 mt-5 shadow-sm content">
           <p>
             IAS Gaon merges the ancient Guru-Shishya tradition with the ethos of
             social justice central to the Indian Constitution. This initiative

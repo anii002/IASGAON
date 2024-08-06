@@ -1,7 +1,18 @@
-.about-section{
-margin-top: 140px;
+.about-section {
+  margin-top: 180px;
 }
 
-.about-section .about-head h1{
-    font-size: 24px;
+.about-section .about-head h1 {
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid red;
+}
+.about-section .about-head p i{
+    color: #010066;
+}
+.about-section .content {
+  background-color: #f6f7fa;
+}
+.about-section .content p {
+  color: #010066;
 }

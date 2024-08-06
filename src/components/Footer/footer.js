@@ -49,97 +49,69 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-9 col-md-9 col-12 mt-3 mt-md-0">
-              <div className="row">
-                <div>
-                  <div>
-                    <div>
-                      <div className="">
-                        <div className="">
-                          <div className="">
-                            <div className="row mt-md-4 mt-0">
-                              <div className="row justify-content-lg-end justify-content-md-end">
-                                <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
-                                  <div className="ps-lg-3">
-                                    <ul className="nav flex-column footer-link-list flex_line1">
-                                      <li className="mb-1">
-                                        <a
-                                          href="admission/admission-procedure.html"
-                                          className="font-14"
-                                        >
-                                          Admission
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="about-us.html"
-                                          className="font-14"
-                                        >
-                                          About Us
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
+              <div className="row mt-md-4 mt-0">
+                <div className="row justify-content-lg-end justify-content-md-end">
+                  <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
+                    <div className="ps-lg-3">
+                      <ul className="nav flex-column footer-link-list flex_line1">
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Admission
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            About Us
+                          </a>
+                        </li>
+                        {/* <li className="mb-1">
                                         <a
                                           href="about-cse.html"
                                           className="font-14"
                                         >
                                           About CSE
                                         </a>
-                                      </li>
-                                      <li className="mb-1">
+                                      </li> */}
+                        {/* <li className="mb-1">
                                         <a
                                           href="faculty-panel.html"
                                           className="font-14"
                                         >
                                           Faculty Panel
                                         </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="careers.html"
-                                          className="font-14"
-                                        >
-                                          Careers
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
-                                  <div className="ps-lg-3">
-                                    <ul className="nav flex-column footer-link-list flex_line1">
-                                      <li className="mb-1">
-                                        <a
-                                          href="gallery.html"
-                                          className="font-14"
-                                        >
-                                          Gallery
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="gallery-video.html"
-                                          className="font-14"
-                                        >
-                                          Video Gallery
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="privacy-policy.html"
-                                          className="font-14"
-                                        >
-                                          Privacy Policy
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="terms-conditions.html"
-                                          className="font-14"
-                                        >
-                                          Terms and Conditions
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
+                                      </li> */}
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Careers
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
+                    <div className="ps-lg-3">
+                      <ul className="nav flex-column footer-link-list flex_line1">
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Gallery
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Video Gallery
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Privacy Policy
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Terms and Conditions
+                          </a>
+                        </li>
+                        {/* <li className="mb-1">
                                         <a
                                           target="_blank"
                                           href="blog/index.html"
@@ -147,14 +119,14 @@ const Footer = () => {
                                         >
                                           Blog
                                         </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
-                                  <div className="ps-lg-3">
-                                    <ul className="nav flex-column footer-link-list">
-                                      <li>
+                                      </li> */}
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-4 col-4 mt-lg-0 mt-md-4 mt-0 footer-links-column order-md-first order-last">
+                    <div className="ps-lg-3">
+                      <ul className="nav flex-column footer-link-list">
+                        {/* <li>
                                         <a
                                           target="_blank"
                                           href="upsc-cse-posts.html"
@@ -162,36 +134,23 @@ const Footer = () => {
                                         >
                                           UPSC CSE Posts
                                         </a>
-                                      </li>
-                                      <li>
-                                        <a
-                                          href="testimonials.html"
-                                          className="font-14"
-                                        >
-                                          Testimonials
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="faq.html" className="font-14">
-                                          FAQs
-                                        </a>
-                                      </li>
-                                      <li className="mb-1">
-                                        <a
-                                          href="contact-us.html"
-                                          className="font-14"
-                                        >
-                                          Contact Us
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                                      </li> */}
+                        <li>
+                          <a href="#" className="font-14">
+                            Testimonials
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" className="font-14">
+                            FAQs
+                          </a>
+                        </li>
+                        <li className="mb-1">
+                          <a href="#" className="font-14">
+                            Contact Us
+                          </a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -211,7 +170,7 @@ const Footer = () => {
                         alt="delhi_icon"
                         src="https://cdnstatic.nextias.com/ibt_banner_images/5027014delhi_icon_%281%29.png"
                       />
-                      <h5 className="mb-3">IAS GAON (Delhi)</h5>
+                      <h5 className="mb-2">IAS GAON (Delhi)</h5>
                       <h6 className="mb-1">Old Rajinder Nagar</h6>
                       <ul className="nav flex-column">
                         <li className="position-relative">
@@ -223,25 +182,16 @@ const Footer = () => {
                           </span>
                         </li>
                         <li className="position-relative mt-1 mb-1">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/icon-call.svg"
-                            width="12"
-                            height="12"
-                            alt="call"
-                          />
+                          <i className="fa fa-phone"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="tel:8081300200">8081300200</a>
                           </span>
                         </li>
                         <li className="position-relative d-flex flex-nowrap align-items-center">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/email.svg"
-                            width="12"
-                            height="12"
-                            alt="mail"
-                          />
+                          <i class="fa fa-envelope"></i>
+
                           <span className="footer-text font-14 ms-1 mr_sp">
-                            <a href="cdn-cgi/l/email-protection.html#ef86818980af818a979b868e9cc18c8082">
+                            <a href="#">
                               <span
                                 className="__cf_email__"
                                 data-cfemail="0b62656d644b656e737f626a7825686466"
@@ -262,7 +212,7 @@ const Footer = () => {
                         alt="delhi_icon"
                         src="https://next-ias-appsquadz.s3.ap-south-1.amazonaws.com/file_library/mix_content/838858776403535400_image.svg"
                       />
-                      <h5 className="mb-3">IAS GAON (Delhi)</h5>
+                      <h5 className="mb-2">IAS GAON (Delhi)</h5>
                       <h6 className="mb-1">Mukherjee Nagar</h6>
                       <ul className="nav flex-column">
                         <li className="position-relative">
@@ -275,23 +225,13 @@ const Footer = () => {
                           </span>
                         </li>
                         <li className="position-relative mt-1 mb-1">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/icon-call.svg"
-                            width="12"
-                            height="12"
-                            alt="call"
-                          />
+                          <i className="fa fa-phone"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="tel:9311667076">9311667076</a>
                           </span>
                         </li>
                         <li className="position-relative d-flex flex-nowrap align-items-center">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/email.svg"
-                            width="12"
-                            height="12"
-                            alt="mail"
-                          />
+                          <i class="fa fa-envelope"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="cdn-cgi/l/email-protection.html#20494e464f48494e4449604e4558544941530e434f4d">
                               <span
@@ -328,13 +268,7 @@ const Footer = () => {
                           </span>
                         </li>
                         <li className="position-relative mt-1 mb-1 d-flex">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/icon-call.svg"
-                            width="12"
-                            height="12"
-                            alt="call"
-                            className="mt-2"
-                          />
+                          <i className="fa fa-phone"></i>
                           <div className="">
                             <span className="footer-text font-14 ms-1 mr_sp text-nowrap">
                               <a href="tel:9358200511">9358200511</a>
@@ -342,12 +276,7 @@ const Footer = () => {
                           </div>
                         </li>
                         <li className="position-relative d-flex flex-nowrap align-items-center">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/email.svg"
-                            width="12"
-                            height="12"
-                            alt="mail"
-                          />
+                          <i class="fa fa-envelope"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="cdn-cgi/l/email-protection.html#523b3c343d38333b222720123c372a263b33217c313d3f">
                               <span
@@ -381,23 +310,13 @@ const Footer = () => {
                           </span>
                         </li>
                         <li className="position-relative mt-1 mb-1">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/icon-call.svg"
-                            width="12"
-                            height="12"
-                            alt="call"
-                          />
+                          <i className="fa fa-phone"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="tel:9958857757">9958857757</a>
                           </span>
                         </li>
                         <li className="position-relative d-flex flex-nowrap align-items-center">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/email.svg"
-                            width="12"
-                            height="12"
-                            alt="mail"
-                          />
+                          <i class="fa fa-envelope"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="cdn-cgi/l/email-protection.html#442d2a222b3436253d252336252e042a213c302d25376a272b29">
                               <span
@@ -431,17 +350,11 @@ const Footer = () => {
                           </span>
                         </li>
                         <li className="position-relative mt-1 mb-1 d-flex">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/icon-call.svg"
-                            width="12"
-                            height="12"
-                            alt="call"
-                            className="mt-2"
-                          />
+                          <i className="fa fa-phone"></i>
                           <div className="">
                             <span className="footer-text font-14 ms-1 mr_sp text-nowrap">
                               <a href="tel:8827664612">8827664612</a>
-                              <span>,</span>{" "}
+                              <span>,</span>
                             </span>
                             <br />
                             <span className="footer-text font-14 ms-1 mr_sp">
@@ -450,12 +363,7 @@ const Footer = () => {
                           </div>
                         </li>
                         <li className="position-relative d-flex flex-nowrap align-items-center">
-                          <img
-                            src="https://cdnstatic.nextias.com/assets/images/icons/email.svg"
-                            width="12"
-                            height="12"
-                            alt="mail"
-                          />
+                          <i class="fa fa-envelope"></i>
                           <span className="footer-text font-14 ms-1 mr_sp">
                             <a href="cdn-cgi/l/email-protection.html#bbd2d5ddd4d9d3d4cbdad7fbd5dec3cfd2dac895d8d4d6">
                               <span
@@ -485,35 +393,34 @@ const Footer = () => {
               <ul className="nav justify-content-md-end footer-icon-right">
                 <li className="me-3">
                   <a href="#" target="_blank">
-                  <i className="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                   </a>
                 </li>
                 <li className="me-3">
                   <a href="#" target="_blank">
-                  <i className="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </li>
                 <li className="me-3">
                   <a href="#" target="_blank">
-                  <i className="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li className="me-3">
                   <a href="#" target="_blank">
-                <i className="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li className="me-3">
                   <a href="#" target="_blank">
-                   <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li className="me-3">
                   <a href="#" target="_blank">
-                  <i className="fab fa-telegram"></i>
+                    <i className="fab fa-telegram"></i>
                   </a>
                 </li>
-             
               </ul>
             </div>
           </div>
