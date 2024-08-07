@@ -16,7 +16,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #fc0505;
+  background-color: #D4403A;
   opacity: 1;
 }
 
@@ -60,7 +60,7 @@
 .resources-box i {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #f30404;
+  color: #D4403A;
 }
 .resources-box p {
   font-weight: bold;
@@ -106,7 +106,7 @@
 }
 .programs-section .btn {
   margin: 5px;
-  border: 1px solid #f30404;
+  border: 1px solid #D4403A;
   font-weight: bold;
 }
 

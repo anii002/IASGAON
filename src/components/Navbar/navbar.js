@@ -26,22 +26,23 @@ const Navbar = () => {
 
   return (
     <>
-       <div className="marquee-container">
+      <div className="marquee-container">
         <div className="marquee-content">
           <div className="marquee-box">
             <p className="mb-3">
               <i>
-                Next Generation Institute for UPSC Civil Services Examination Preparation.
+                Next Generation Institute for UPSC Civil Services Examination
+                Preparation.
               </i>
             </p>
           </div>
           <div className="marquee-box">
-            <p className="mb-3">
+            <p className="mb-3 ">
               <i>Explore our specialized programs and training resources.</i>
             </p>
           </div>
           <div className="marquee-box">
-            <p className="mb-3">
+            <p className="mb-3 ">
               <i>Join us for expert guidance and support.</i>
             </p>
           </div>
@@ -49,12 +50,17 @@ const Navbar = () => {
       </div>
       <nav
         className={`navbar navbar-expand-lg fixed-top ${
-          scrolled ? "scrolled" : "navbar-light bg-light"
+          scrolled ? "scrolled" : "navbar-light bg-white"
         } shadow`}
       >
-        <div className="container-fluid">
+        <div className="container-fluid px-5">
           <a className="navbar-brand d-flex align-items-center" href="/">
-            <img src={logo} alt="Logo" className="navbar-logo img-fluid" />
+            <img
+              src={logo}
+              alt="Logo"
+              className="navbar-logo img-fluid"
+              style={{ borderRadius: "7px" }}
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -70,28 +76,30 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <div className="navbar-content d-flex flex-column align-items-end w-100">
               <div className="navbar-icons mb-2 d-lg-flex d-none">
-                <a href="tel:080-6220-6330">
-                  <i className="fa fa-phone"></i> 080-6220-6330
+                <a href="tel:080-6220-6330" className="icon-item">
+                  <i className="fa fa-phone fs-5 me-2"> </i> 080-6220-6330
+                </a>
+                <a href="/" className="ms-2">
+                  <i className="fab fa-whatsapp fs-5"></i>
+                </a>
+
+                <a href="/">
+                  <i className="fab fa-facebook fs-5"></i>
                 </a>
                 <a href="/">
-                  <i className="fab fa-whatsapp"></i>
+                  <i className="fab fa-youtube fs-5"></i>
                 </a>
                 <a href="/">
-                  <i className="fab fa-facebook"></i>
+                  <i className="fab fa-instagram fs-5"></i>
                 </a>
                 <a href="/">
-                  <i className="fab fa-youtube"></i>
+                  <i className="fab fa-telegram fs-5"></i>
                 </a>
                 <a href="/">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="/">
-                  <i className="fab fa-telegram"></i>
-                </a>
-                <a href="/">
-                  <i className="fas fa-question-circle"></i>
+                  <i className="fas fa-question-circle fs-5"></i>
                 </a>
               </div>
+
               <ul className="navbar-nav w-100 justify-content-end">
                 <li className="nav-item">
                   <a className="nav-link" href="/">
@@ -112,28 +120,6 @@ const Navbar = () => {
                     </a>
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Admission
-                  </a>
-                </li>
-                <li className="nav-item">
-                <Link to="/our-programs">
-                  <a className="nav-link" href="/">
-                    Our programs
-                  </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Non Academic learning
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Academic Study material
-                  </a>
-                </li>
                 <li className="nav-item ">
                   <a
                     className="nav-link truncate-container  text-truncate-custom"
@@ -142,6 +128,31 @@ const Navbar = () => {
                     About UPSC Civil Services Examination and State pcs exam
                   </a>
                 </li>
+                <li className="nav-item">
+                  <Link to="/our-programs">
+                    <a className="nav-link" href="/">
+                      Our programs
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Admission
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Academic Study material
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Non Academic learning
+                  </a>
+                </li>
+
                 <li className="nav-item">
                   <a className="btn btn-outline-danger btn-sm" href="/">
                     Student login

@@ -1,12 +1,13 @@
+/* Marquee Styles */
 .marquee-container {
   width: 100%;
-  background-color:red; /* Adjust background color */
-  
+  background-color: #010066;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1020; /* Ensure it sits above other content */
-  overflow: hidden; /* Hide overflowing content */
+  z-index: 1020;
+  overflow: hidden;
+  padding: 4px;
 }
 
 .marquee-content {
@@ -18,7 +19,7 @@
 .marquee-box {
   margin: 0 15px;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 14px;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -34,91 +35,217 @@
   }
 }
 
-.navbar {
-  margin-top: 50px; /* Adjust to ensure navbar is below marquee */
-}
-
-
+/* Navbar Styles */
 .navbar {
   margin-top: 30px; /* Adjust to ensure navbar is below marquee */
-}
-
-.navbar {
   transition: background-color 0.5s ease;
 }
+
 .navbar.scrolled {
   background-color: #010066 !important;
   color: #fff !important;
 }
+
 .navbar-content .navbar-nav .nav-link {
   color: #010066;
 }
+
+.navbar-content .navbar-icons a {
+  color: #D4403A;
+}
+
 .navbar.scrolled .nav-link,
 .navbar.scrolled .navbar-brand,
 .navbar.scrolled .navbar-icons a {
   color: #ffffff !important;
 }
+
 .navbar-nav .nav-item {
   position: relative;
 }
+.navbar-icons {
+  border-bottom: 1px solid #ccc;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  /* padding: 0 10px; */
+  position: relative;
+}
+
+.icon-item:not(:last-child)::after {
+  content: "";
+  height: 24px;
+  border-left: 1px solid #ccc;
+  position: absolute;
+  right: -5px;
+}
+
 .navbar-nav .nav-item:not(:last-child) {
   margin-right: 5px;
 }
+
 .navbar-nav .nav-link {
   display: inline-block;
-  /* padding: 10px 15px; */
   text-decoration: none;
   color: black;
   border-bottom: 2px solid transparent;
   transition: border-bottom-color 0.5s ease;
 }
+
 .navbar-nav .nav-link:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #D4403A;
 }
-.navbar.scrolled .navbar-icons a:hover {
-  color: #ffd700;
-}
+
+
+
+
 .navbar-brand {
   width: 90px;
 }
+
 .navbar-logo {
   object-fit: cover;
 }
+
 .navbar-icons {
   display: flex;
   align-items: center;
 }
+
 .navbar-icons a {
-  color: #000;
   text-decoration: none;
   font-size: 1.2rem;
-  margin-right: 10px;
+  margin-right: 2px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid transparent; /* Add border for icons */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
+
 .navbar-icons a:last-child {
   margin-right: 0;
 }
-.navbar-icons a:hover {
-  color: #010066;
+
+/* Specific Icon Styles */
+.navbar-icons .fa-phone {
+  color: #000;
+  background-color: #fff;
+  border-color: #ddd;
 }
+
+.navbar-icons .fab.fa-whatsapp {
+  color: #25D366; /* WhatsApp Green */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.navbar-icons .fab.fa-facebook {
+  color: #3b5998; /* Facebook Blue */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.navbar-icons .fab.fa-youtube {
+  color: #D4403A; /* YouTube Red */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.navbar-icons .fab.fa-instagram {
+  color: #E1306C; /* Instagram Gradient */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.navbar-icons .fab.fa-telegram {
+  color: #0088cc; /* Telegram Blue */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.navbar-icons .fas.fa-question-circle {
+  color: #b92b27; /* Custom color for question icon */
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+
+
 .navbar.scrolled .navbar-icons a.phone-number {
   background-color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
   color: #284057 !important;
 }
+
 .navbar .navbar-nav .nav-item {
   color: #2f3c4d !important;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 650;
 }
+
 .navbar .navbar-nav .nav-item .btn {
   font-weight: bold;
 }
+
 .text-truncate-custom {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 .truncate-container {
   max-width: 200px; /* Adjust the width as needed */
+}
+
+/* Adjust Icon Colors on Scroll */
+.navbar.scrolled .navbar-icons .fa-phone {
+  color: #fff;
+  background-color: #010066;
+  border-color: #010066;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fab.fa-whatsapp {
+  color: #fff;
+  background-color: #25D366;
+  border-color: #25D366;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fab.fa-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fab.fa-youtube {
+  color: #fff;
+  background-color: #FF0000;
+  border-color: #FF0000;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fab.fa-instagram {
+  color: #fff;
+  background-color: #E1306C;
+  border-color: #E1306C;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fab.fa-telegram {
+  color: #fff;
+  background-color: #0088cc;
+  border-color: #0088cc;
+  border-radius: 10px;
+}
+
+.navbar.scrolled .navbar-icons .fas.fa-question-circle {
+  color: #fff;
+  background-color: #b92b27;
+  border-radius: 10px;
+  border-color: #b92b27;
 }

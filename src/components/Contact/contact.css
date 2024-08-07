@@ -5,7 +5,7 @@
 .contact-section .contact-head h1{
     font-size: 24px;
     display: inline-block;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #D4403A;
 }
 .contact-section .contact-main {
     display: flex;
@@ -63,7 +63,7 @@
 
 }
 .contact-section .contact-main .contact-box .form h3{
-    color: red;
+    color: #D4403A;
 }
 
 #textarea {
@@ -101,4 +101,27 @@
         padding: 0;
         margin-top: 180px;
     } 
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button-container button {
+    margin: 0 10px;
+}
+.form-container {
+    margin: 20px;
+}
+.form-container select, 
+.form-container input, 
+.form-container textarea {
+    margin-bottom: 10px;
+}
+.form-container .btn-submit {
+    background-color: #ff5722;
+    color: white;
+    border: none;
 }

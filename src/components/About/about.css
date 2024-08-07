@@ -5,7 +5,7 @@
 .about-section .about-head h1 {
   font-size: 24px;
   display: inline-block;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #D4403A;
 }
 .about-section .about-head p i{
     color: #010066;

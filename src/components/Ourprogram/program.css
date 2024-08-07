@@ -1,9 +1,21 @@
-.program-section{
-    margin-top: 160px;
+.program-section {
+  margin-top: 160px;
 }
 
-.program-section .program-head h1{
-    font-size: 24px;
-    display: inline-block;
-    border-bottom: 2px solid red;
+.program-section .program-head h1 {
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid #D4403A;
+}
+.program-section .nav .nav-link{
+    color: #D4403A;
+}
+
+.nav-tabs .nav-link.active {
+  color: #010066;
+ 
+}
+
+.center-text {
+  text-align: center;
 }
